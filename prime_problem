@@ -3,11 +3,17 @@ let factor=0
 
 for(let i=2;i<=number*0.5;i++){
 if(number%i==0)
-     {
-factor++
-       }
 
+     {
+       factor++
+     }
 }
 
-if(factor==0){console.log(number,"is prime")}
-else{console.log(number,"is not prime")}
+if(factor==0)
+{
+  console.log(number,"is prime")
+}
+else
+{
+  console.log(number,"is not prime")
+}
